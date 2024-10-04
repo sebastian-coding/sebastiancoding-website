@@ -1,6 +1,6 @@
 ---
-title: 'Dolor'
-description: 'Un poema titulado: Dolor'
+title: 'Roto'
+description: 'Un poema titulado: Roto'
 pubDate: 'Oct 04 2024'
 heroImage: '/blog-placeholder-2.jpg'
 category: 'distopica'
