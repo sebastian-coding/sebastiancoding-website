@@ -1,0 +1,24 @@
+---
+import {type CollectionEntry, getCollection} from 'astro:content';
+import BlogPost from '../../../layouts/BlogPost.astro';
+
+export async function getStaticPaths() {
+    const posts = await getCollection('blog');  // Fetch posts from /content/blog/es
+
+    return posts
+        .filter((post) => post.slug.startsWith('es/'))  // Ensure this is a Spanish post
+        .map((post) => ({
+            params: {slug: post.slug.replace('es/', '')},  // Remove 'es/' from slug and pass as string
+            props: post,
+        }));
+}
+
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const {Content} = await post.render();
+---
+
+<BlogPost {...post.data}>
+    <Content/>
+</BlogPost>

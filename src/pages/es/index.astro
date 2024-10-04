@@ -1,0 +1,36 @@
+---
+import {getLangFromUrl, useTranslations} from "../../i18n/utils";
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import {SITE_DESCRIPTION} from '../../consts';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+    <BaseHead title={t('site.title')} description={SITE_DESCRIPTION}/>
+</head>
+<body>
+<Header/>
+<main>
+    <h1>¡Hola Decoder!</h1>
+    <p>
+        Bienvenido a mi rincón digital, donde el código se encuentra con la vida. Soy Sebastián Cardozo
+        (sebastiancoding), un ingeniero de software explorando la industria tecnológica y compartiendo reflexiones
+        crudas de mi experiencia. Aquí, la lógica y la existencia se entrelazan, ofreciendo perspectivas tanto
+        técnicas como personales.
+    </p>
+    <p>
+        ¿Listo para profundizar? Explora mis últimos artículos sobre programación en
+        <a href="/es/blog/decode-spot">DecodeSpot™</a> o sumérgete en historias de vida en
+        <a href="/es/blog/hecho-de-respirar">El Acto de Respirar</a>. En <a href="/es/blog/distopica">Distópica</a>, los
+        escritos no se guardan nada.
+    </p>
+</main>
+<Footer/>
+</body>
+</html>
