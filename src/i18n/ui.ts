@@ -36,7 +36,11 @@ export const ui = {
     },
 } as const;
 
-export const routes = {
+type RoutesType = {
+    [key: string]: Record<string, string>;
+};
+
+export const routes: RoutesType = {
     es: {
         'blog': 'blog',
         'about': 'sobre-mi'

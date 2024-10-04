@@ -11,7 +11,7 @@ const lang = pathname.match(/^\/[a-z]{2}\//);
 let path = href
 if (lang) {
     pathname = pathname.replace(lang[0], '/');
-    path = href.replace(lang[0], '/');
+    path = typeof href === 'string' ? href.replace(lang[0], '/') : href;
 }
 const subpath = pathname.match(/[^\/]+/g);
 const isActive = path === pathname || path === '/' + subpath?.[0];
