@@ -94,6 +94,7 @@ const route = getRouteFromUrl(Astro.url);
     }
 
     button {
+        display: none;
         border: none;
         background: none;
         color: inherit;
@@ -126,6 +127,10 @@ const route = getRouteFromUrl(Astro.url);
     }
 
     @media (max-width: 720px) {
+        button {
+            display: block;
+        }
+
         .internal-links {
             display: none;
             background: #FFF;
