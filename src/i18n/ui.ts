@@ -12,7 +12,7 @@ export const ui = {
         'site.title': 'sebastiancoding - Through life and coding',
         'nav.home': 'Home',
         'nav.about': 'About me',
-        'copyright:content': 'The contents of',
+        'copyright:content': 'The content of',
         'copyright.site': 'this website',
         'copyright.connector': 'by',
         'copyright.license': 'is licensed under',
