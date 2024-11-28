@@ -9,7 +9,7 @@ import FormattedDate from '../../../components/FormattedDate.astro';
 
 const posts = (await getCollection('blog',
     ({data}) => data.category === 'distopica')).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
