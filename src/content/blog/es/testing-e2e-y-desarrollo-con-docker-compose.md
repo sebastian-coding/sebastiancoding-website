@@ -3,7 +3,7 @@ title: 'Construyendo un Entorno de Pruebas E2E con Docker Compose'
 description: 'Aprende a configurar un entorno completo para pruebas de extremo a extremo utilizando Docker Compose, simplificando los flujos de trabajo de desarrollo y los procesos de pruebas'
 pubDate: 'Dec 5 2024'
 heroImage: '/docker-compose.jpg'
-category: 'decode-spot'
+category: 'decode-spot-es'
 type: 'post'
 ---
 
