@@ -1,7 +1,7 @@
 ---
 title: 'Sin Dioses'
 description: 'Un poema titulado: Sin Dioses'
-pubDate: 'Oct 14 2024'
+pubDate: 'Dec 5 2024'
 heroImage: '/blog-placeholder-3.jpg'
 category: 'distopica'
 type: 'poem'

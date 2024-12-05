@@ -1,7 +1,7 @@
 ---
 title: 'El sufrimiento como combustible del cambio'
 description: 'Sufrir puede ser doloroso y todo un desafío, pero puede ser una herramienta útil para cambiar nuestra realidad.'
-pubDate: 'Oct 14 2024'
+pubDate: 'Dec 5 2024'
 heroImage: '/suffering-as-force-behind-transformation.jpg'
 category: 'hecho-de-respirar'
 type: 'post'

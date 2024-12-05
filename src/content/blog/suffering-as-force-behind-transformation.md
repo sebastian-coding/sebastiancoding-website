@@ -1,7 +1,7 @@
 ---
 title: 'Suffering as a force behind transformation'
 description: 'Suffering can be painful and challenging for most people, but it can be used to transform our reality.'
-pubDate: 'Oct 14 2024'
+pubDate: 'Dec 5 2024'
 heroImage: '/suffering-as-force-behind-transformation.jpg'
 category: 'act-of-breathing'
 type: 'post'

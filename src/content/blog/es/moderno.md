@@ -1,7 +1,7 @@
 ---
 title: 'Moderno'
 description: 'Un poema titulado: Moderno'
-pubDate: 'Oct 14 2024'
+pubDate: 'Dec 5 2024'
 heroImage: '/blog-placeholder-4.jpg'
 category: 'distopica'
 type: 'poem'
